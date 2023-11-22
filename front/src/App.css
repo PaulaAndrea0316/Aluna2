@@ -58,7 +58,7 @@ f
 }
 
 #cart_count {
-  background-color: #febd69;
+  background-color: #bf0d0d;
   padding: 0.2rem 0.5rem;
   border-radius: 0.2rem;
   color: black;
@@ -247,7 +247,7 @@ footer {
 
 #checkout_btn,
 .review-btn {
-  background-color: #fa9c23;
+  background-color: #fa2323;
   border-color: #fa9c23;
   margin-top: 2rem;
   border-radius: 5rem;
