@@ -125,7 +125,7 @@ const reviewHandler = () => {
                <Carousel pause='hover'>
                  {product.imagen && product.imagen.map(img =>(
                    <Carousel.Item key={img.public_id}>
-                     <img className="d-block w-100" src={"../"+img.url} alt={product.nombre}></img>
+                     <img className="d-block w-100" src={img.url} alt={product.nombre}></img>
                    </Carousel.Item>
                  ))}
                </Carousel>
