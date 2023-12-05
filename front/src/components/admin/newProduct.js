@@ -21,11 +21,11 @@ const NewProduct = () => {
     const [imagenPreview, setImagenPreview] = useState([])
 
     const categorias = [
-      "Decoración del hogar",
-      "Bisutería",
-      "Implementos para Yoga y meditación",
-      "Prendas de vestir y accesorios",
-    ];
+        "Decoración del hogar",
+        "Bisutería",
+        "Implementos para Yoga y meditación",
+        "Prendas de vestir y accesorios", 
+    ]
 
     const alert = useAlert();
     const dispatch = useDispatch();
